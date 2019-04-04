@@ -1,0 +1,65 @@
+#bg {
+    background: url(../img/mainbg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background: white;
+}
+
+.bg-overlay {
+    height: 30vh;
+    width: 100%;
+}
+
+.main-overlay {
+    height: 100vh;
+    width: 100%;
+}
+
+.border-primary {
+    border : solid 2px #162c9a;
+}
+
+/* colors */
+
+.txt-primary {
+    color : #162c9a;
+}
+
+.back-primary {
+    background: #162c9a;
+}
+
+.noborder {
+    border: none;
+}
+
+.txt-consolas {
+    font-family: 'consolas';
+}
+
+.dp{
+    position: absolute;
+    top: 19%;
+}
+
+.mt-7 {
+    margin-top: 7%;
+}
+
+
+html {
+    font-size: 1rem;
+  }
+  
+@media (min-width: 1300px) {
+    html {
+        font-size : 120%;
+    }
+}
+
+

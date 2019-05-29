@@ -1,36 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="keywords" content="business, course, education, event, shopping, classes, e-learning, instructor, lessons, Online Learning, school, studying, teaching, tutoring, university">
     <meta name="description" content="BCP Official Website">
-    <title>Admission - Bestlink College of the Philippines</title>
+    <title id="app-title">Admission - Bestlink College of the Philippines</title>
     <link rel="icon" type="image/png" href="http://bcp.edu.ph/img/favicon.png">
-    
-    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="./css/welcome.css" rel="stylesheet" type="text/css" />
-    <link href="./css/datetimepicker.min.css" rel="stylesheet" type="text/css" />   
-    <script type="text/javascript">
-        var onloadCallback = function() {
-            grecaptcha.render(document.getElementById('recapt'), {
-            'sitekey' : '6LfQCpwUAAAAAHE1_kcBNnTptRyilfYYmuyM5vDg'
-            });
-        };
-    </script>
+
+    <design></design>
 
 </head>
-<body id="app-body">
-    
+
+<body onresize='resizeAcad()'>
+
     <div id="app"></div>
-    
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/datetimepicker.min.js"></script>
-    <script src="./js/synapsygen.js"></script>
-    <script src="./js/swal.js"></script>
+
+    <script src="js/jquery.min.js"></script>
+    <logics></logics>
     <script src="./dist/bundle.js"></script>
-    
 </body>
+
 </html>

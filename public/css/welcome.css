@@ -24,6 +24,10 @@ body {
     border : solid 2px #162c9a;
 }
 
+.back-primary:focus {
+
+    background: #0f67eb;
+}
 /* colors */
 
 .txt-primary {
@@ -61,5 +65,7 @@ html {
         font-size : 120%;
     }
 }
+
+/* Loaders */
 
 

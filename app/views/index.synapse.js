@@ -290,6 +290,17 @@ module.exports = function(_arguments_) {
 
     </header>
 
+    
+<section id="topHome">
+<div class="topBanner" style="">
+    <div class="topBanner-overlay">
+        <div class="grad-t-w"></div>
+
+    </div>
+</div>
+</section>
+
+
     <section id="welcomebcp">
   <div class="course wBCP" >
     <div class="container text-center">
@@ -422,47 +433,23 @@ module.exports = function(_arguments_) {
           <div class="container-fluid">
             <div class="row">
               <div class="w-title">
-                  <h1 class="w-title-normal">Latest <b class="w-title-emp">Updates</b></h1>
-              </div>
-
-              <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 news-title-container">
-                <section class="widget widget_text">
-                    <center>
-                      <div class="textwidget text">
-                          <p class="sub-title-text text-center">Latest news and past events of BCP, <br /> Click <a href="/news"><b class="w-title-emp">Here</b></a> for more news.</p>
-                      </div>
-                    </center>
-                </section>
+                  <h1 class="w-title-normal">Life @ <b class="w-title-emp">BCP</b></h1>
               </div>
 
               <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
-                <div id="news-bg">
-                  <div class="topBanner-overlay news-latest-container">
-                      <div class="abs-bg">
-                        <div class="container">
-                          <div class="row">
-
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 news-latest-content">
-                              <h2 id="news-title-feat" class="news-latest-content-title"></h2>
-                              <p id="news-content-feat" class="news-latest-content-description"></p>
-                            </div>
-
-                          </div>
-                        </div>
-                      </div>
-                  </div>
+                
+                <div id="instafeed-gallery-feed" class="grid">
+                <div class="grid-sizer"></div>
+                <!--  instagram feed will load here - markup below was used to structure images before loading them through instafeed -->
                 </div>
-              </div>
 
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div id="owl-banner-carousel" class="owl-carousel owl-theme owl-container">
-                  
-                </div>
               </div>
 
             </div>
           </div>
         </section>
+
+        
       </div>
 
       <div class="col-lg-3 col-md-3 col-sm-3">

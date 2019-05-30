@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Kups",
+            "request": "launch",
+            "mainClass": "Kups"
+        }
+    ]
+}

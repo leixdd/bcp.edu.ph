@@ -50,6 +50,6 @@
     "nodemon": "^1.18.3",
     "passport": "*",
     "passport-jwt": "*",
-    "socket.io": "^2.1.1"
+    "socket.io": "^2.4.0"
   }
 }
